@@ -1,0 +1,88 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+* files in this directory. Styles in this file should be added after the last require_* statement.
+* It is generally better to create a new file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+.navbar-default {
+  background-color: rgb(106, 70, 78);
+  cursor: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Lobster', serif;
+  font-size: 30px;
+  color: white !important;
+  padding-left: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding: 20px 20px;
+  line-height: 10px;
+  text-transform: uppercase;
+  cursor: auto;
+  color: white !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: rgb(143, 86, 100);
+}
+
+.navbar-default .navbar-nav {
+  text-transform: uppercase;
+  font-family: 'Lato', serif;
+  color: white;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color:rgba(50, 75, 150, .20);
+}
+
+.divider {
+  background-color: #00a6c2;
+  max-width: 100%;
+}
+
+h5.footer {
+  color: #fff;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: auto;
+}
+
+.global-footer {
+  background-color: rgb(94, 85, 87);
+  color: #393939;
+  line-height: 18px;
+  overflow: hidden;
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+
+}
